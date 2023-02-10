@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+type DataSlide {
+  folder       String
+  imagesLength String
+}
+
+type DataTechnology {
+  color String
+  name  String
+}
+
+type SkillsSubSkill {
+  name String
+  src  String
+}
+
+model Data {
+  id          String           @id @default(auto()) @map("_id") @db.ObjectId
+  description String
+  name        String
+  repo        String
+  site        String
+  ref         String
+  slide       DataSlide
+  span        String
+  src         String
+  technology  DataTechnology[]
+  youtube     String
+}
+
+model Skills {
+  id     String           @id @default(auto()) @map("_id") @db.ObjectId
+  title  String
+  skills SkillsSubSkill[]
+}

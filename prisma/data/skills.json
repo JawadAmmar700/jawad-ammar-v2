@@ -1,0 +1,121 @@
+{
+    "skills": [
+        {
+            "title": "Front-End",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "src": "html"
+                },
+                {
+                    "name": "React.JS",
+                    "src": "reactjs"
+                },
+                {
+                    "name": "JavaScript",
+                    "src": "javascript"
+                },
+                {
+                    "name": "TypeScript",
+                    "src": "typescript"
+                },
+                {
+                    "name": "JSON",
+                    "src": "json"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "src": "tailwindcss"
+                },
+                {
+                    "name": "Bootstrap",
+                    "src": "bootstrap"
+                },
+                {
+                    "name": "CSS",
+                    "src": "css"
+                }
+            ]
+        },
+        {
+            "title": "Back-End",
+            "skills": [
+                {
+                    "name": "Node.JS",
+                    "src": "nodejs"
+                },
+                {
+                    "name": "Express",
+                    "src": "express"
+                },
+                {
+                    "name": "Java",
+                    "src": "java"
+                },
+                {
+                    "name": "Next.JS",
+                    "src": "nextjs"
+                },
+                {
+                    "name": "PHP",
+                    "src": "php"
+                }
+            ]
+        },
+        {
+            "title": "Database",
+            "skills": [
+                {
+                    "name": "MySQL",
+                    "src": "mysql"
+                },
+                {
+                    "name": "MongoDB",
+                    "src": "mongodb"
+                },
+                {
+                    "name": "Prisma",
+                    "src": "prisma"
+                },
+                {
+                    "name": "Firebase",
+                    "src": "firebase"
+                },
+                {
+                    "name": "PostgresSQL",
+                    "src": "postgressql"
+                }
+            ]
+        },
+        {
+            "title": "Control Version",
+            "skills": [
+                {
+                    "name": "Git",
+                    "src": "git"
+                },
+                {
+                    "name": "GitHub",
+                    "src": "github"
+                }
+            ]
+        },
+        {
+            "title": "Hosting",
+            "skills": [
+                {
+                    "name": "Vercel",
+                    "src": "vercel"
+                },
+                {
+                    "name": "Heroku",
+                    "src": "heroku"
+                },
+                {
+                    "name": "Netlify",
+                    "src": "netlify"
+                }
+            ]
+        }
+    ]
+}
