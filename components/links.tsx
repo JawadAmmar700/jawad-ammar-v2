@@ -18,7 +18,9 @@ const Links = ({
     <>
       {links.map((link, i) => (
         <Link
-          href={`/${home === "" ? "" : `${home}/`}${link.href.toLowerCase()}`}
+          href={`/${home === "" ? "" : `${home}/`}${link.href
+            .toLowerCase()
+            .trim()}`}
           key={i}
         >
           <div

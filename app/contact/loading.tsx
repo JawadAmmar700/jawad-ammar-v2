@@ -23,8 +23,8 @@ const ContactLoading = () => {
             <Skeleton height={150} />
           </div>
           <Skeleton
-            width={40}
-            height={40}
+            width={50}
+            height={50}
             className="btn btn-square ring ring-gray-800 btn-md relative top-1 disabled:cursor-not-allowed disabled:opacity-50"
           />
         </form>

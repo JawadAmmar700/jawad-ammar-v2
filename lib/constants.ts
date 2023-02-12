@@ -50,3 +50,9 @@ export const skillsRoutes = [
     href: "control",
   },
 ];
+
+export const ProjectDetailsTabs = [
+  "Description",
+  "Screenshots",
+  "Technologies",
+];

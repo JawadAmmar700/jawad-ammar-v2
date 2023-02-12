@@ -2,8 +2,8 @@
 import React from "react";
 import "../styles/globals.css";
 import "react-loading-skeleton/dist/skeleton.css";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Header from "./header";
 import Search from "./search";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";

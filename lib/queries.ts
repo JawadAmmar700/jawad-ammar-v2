@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import prisma from "./prisma";
+import { ObjectId } from "mongodb";
 
 const projectsQuery = async () => {
   const projects = await prisma.data.findMany({
@@ -17,11 +18,14 @@ const skillsQuery = async () => {
 };
 
 const projectQuery = async (id: string) => {
-  const project = await prisma.data.findFirst({
-    where: {
-      id: id,
-    },
-  });
+  const isValid = ObjectId.isValid(id);
+  const project =
+    isValid &&
+    (await prisma.data.findFirst({
+      where: {
+        id: id,
+      },
+    }));
   if (!project) {
     notFound();
   }
