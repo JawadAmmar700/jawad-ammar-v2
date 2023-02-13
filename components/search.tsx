@@ -11,12 +11,12 @@ const Search = () => {
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    router.push(`/showcase/${search}`);
+    router.push(`/showcase/${search.toLowerCase()}`);
     setSearch("");
   };
 
   return (
-    <div className="w-full flex items-center justify-center px-5 py-8">
+    <div className="w-full flex items-center justify-center px-5 py-8 z-20">
       <div className="w-full md:max-w-lg sm:max-w-md h-10 overflow-hidden  rounded-lg ring ring-gray-800 flex items-center space-x-2  text-xs text-slate-400 font-medium px-3 bg-[#161B22]">
         <LockClosedIcon className="w-3 h-3" />
         <h1 className="xs:block hidden">{process.env.NEXT_PUBLIC_SITE_URL}</h1>
