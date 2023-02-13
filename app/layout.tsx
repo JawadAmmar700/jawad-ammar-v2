@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="w-full h-screen flex flex-col bg-[#0D1116] relative overflow-hidden">
+      <body className="w-full h-screen flex flex-col bg-[#0D1116] relative">
         <Background />
         <Socials />
         <Search />
