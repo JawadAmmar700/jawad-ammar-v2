@@ -1,9 +1,8 @@
-import Cards from "../cards";
+import Cards from "./cards";
 import { projectSlug } from "../../../lib/queries";
 
 export async function generateStaticParams() {
   const slugs = ["react", "next", "node"];
-
   return slugs.map((slug) => ({
     name: slug,
   }));

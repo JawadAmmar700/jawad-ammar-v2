@@ -1,46 +1,52 @@
 "use client";
-import React from "react";
-import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Socials = () => {
-  const [onTap, setOnTap] = React.useState(false);
-  console.log(onTap);
+  const [onTap, setOnTap] = useState(false);
+
   return (
     <div className=" absolute inset-0 overflow-hidden w-full h-full">
-      <div className="z-50 absolute bottom-28 sm:bottom-10 right-0">
+      <div className="z-50 absolute bottom-5 right-0">
         <motion.div
           initial={{ width: 40, height: 40 }}
-          animate={{ width: onTap ? 40 : 40, height: onTap ? 150 : 40 }}
-          className={`flex flex-col items-center justify-between outline-none ring ring-gray-800 p-2 rounded-tl rounded-bl`}
+          animate={{ width: onTap ? 150 : 40, height: onTap ? 40 : 40 }}
+          className={`flex  items-center ${
+            onTap ? "justify-between p-2" : "justify-center"
+          } outline-none ring ring-gray-800 rounded-tl rounded-bl`}
         >
           <div
             className={`${
               onTap ? "flex opacity-100" : "hidden opacity-0"
-            }  flex-col items-center justify-center space-y-2`}
+            }  flex items-center justify-center space-x-2`}
           >
             <Link href={process.env.NEXT_PUBLIC_GITHUB_LINK!}>
-              <FaGithub className="h-6 w-6 text-slate-500 hover:text-slate-100 " />
+              <FaGithub className="h-5 w-5 text-slate-500 hover:text-slate-100 " />
             </Link>
             <Link href={process.env.NEXT_PUBLIC_LINKEDIN_LINK!}>
-              <FaLinkedin className="h-6 w-6 text-slate-500 hover:text-slate-100 " />
+              <FaLinkedin className="h-5 w-5 text-slate-500 hover:text-slate-100 " />
             </Link>
             <Link href={process.env.NEXT_PUBLIC_FACEBOOK_LINK!}>
-              <FaFacebook className="h-6 w-6 text-slate-500 hover:text-slate-100 " />
+              <FaFacebook className="h-5 w-5 text-slate-500 hover:text-slate-100 " />
             </Link>
           </div>
           {onTap ? (
-            <ChevronDownIcon
+            <div
               onClick={() => setOnTap(!onTap)}
-              className="h-6 w-6 text-slate-400 hover:text-slate-100 cursor-pointer"
-            />
+              className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer"
+            >
+              <ChevronRightIcon className="h-5 w-5 text-slate-400" />
+            </div>
           ) : (
-            <ChevronUpIcon
+            <div
               onClick={() => setOnTap(!onTap)}
-              className="h-6 w-6 text-slate-400 hover:text-slate-100 cursor-pointer"
-            />
+              className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer"
+            >
+              <ChevronLeftIcon className="h-5 w-5 text-slate-400" />
+            </div>
           )}
         </motion.div>
       </div>

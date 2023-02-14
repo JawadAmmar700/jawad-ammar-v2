@@ -3,6 +3,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import NextArrow from "./next-arrow";
 import PrevArrow from "./prev-arrow";
+import { motion } from "framer-motion";
 
 const settings = {
   dots: false,
@@ -18,7 +19,12 @@ const settings = {
 export default function Carousal({ slides }: { slides: Slides }) {
   console.log("slides, ", slides);
   return (
-    <div className="">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <Slider {...settings}>
         {Array(parseInt(slides?.imagesLength))
           .fill("")
@@ -29,10 +35,12 @@ export default function Carousal({ slides }: { slides: Slides }) {
               alt={`${slides.folder}-slide-${i + 1}`}
               width={1920}
               height={1080}
+              blurDataURL="/blur.png"
+              placeholder="blur"
               className="rounded-lg w-full h-[300px] object-contain "
             />
           ))}
       </Slider>
-    </div>
+    </motion.div>
   );
 }

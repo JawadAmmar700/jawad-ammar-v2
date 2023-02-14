@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { cardVariants } from "../../lib/motion";
+import { cardVariants } from "../../../lib/motion";
 import { CgWebsite } from "react-icons/cg";
 import { BackwardIcon, ForwardIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
@@ -53,7 +53,9 @@ const Cards = ({ data }: CardsProps) => {
             <CgWebsite className="h-6 w-6 text-white" />
             <h1 className="text-xs md:text-sm font-bold ">{item.name}</h1>
             <Link
-              href={`/showcase/${item.ref}/${item.id}`}
+              // href={`/showcase/${item.ref}/${item.id}`}
+              href="/showcase/react/63e641b2e6d49e81b355643b"
+              rel="noopener noreferrer"
               className="py-0.5 px-2 hover:bg-gray-800 rounded-md uppercase"
             >
               details
