@@ -9,7 +9,7 @@ export default function ShowCaseLayout({
 }) {
   return (
     <div className="py-5 w-full h-full flex flex-col">
-      <h1 className="text-slate-400 font-bold flex-1">{children}</h1>
+      <div className="text-slate-400 font-bold flex-1 px-12">{children}</div>
       <div className="flex-none w-full sm:p-5 py-5 px-5 flex space-x-2">
         <Links links={tabs} home="showcase" />
       </div>

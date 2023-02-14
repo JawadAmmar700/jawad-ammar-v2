@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { LockClosedIcon } from "@heroicons/react/24/solid";
 import { useSelectedLayoutSegments, useRouter } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Search = () => {
   const segments = useSelectedLayoutSegments();
@@ -23,7 +24,20 @@ const Search = () => {
         <p>/</p>
         {segments.map((segment, i) => (
           <div key={i} className="flex items-center space-x-2">
-            <p>{segment}</p>
+            <motion.p
+              key={segment}
+              initial={{ backgroundColor: "#161B22" }}
+              animate={{
+                backgroundColor: ["#161B22", "#FF00FF", "#161B22"],
+              }}
+              transition={{
+                duration: 0.8,
+              }}
+              exit={{ backgroundColor: "#161B22" }}
+              className="rounded"
+            >
+              {segment}
+            </motion.p>
             {i !== segments.length - 1 && <p>/</p>}
             {segments[0] === "showcase" && segments.length === 1 && (
               <div className="w-[90px] h-5 flex items-center space-x-2">

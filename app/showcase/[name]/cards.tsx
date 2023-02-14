@@ -53,8 +53,7 @@ const Cards = ({ data }: CardsProps) => {
             <CgWebsite className="h-6 w-6 text-white" />
             <h1 className="text-xs md:text-sm font-bold ">{item.name}</h1>
             <Link
-              // href={`/showcase/${item.ref}/${item.id}`}
-              href="/showcase/react/63e641b2e6d49e81b355643b"
+              href={`/showcase/${item.ref}/${item.id}`}
               rel="noopener noreferrer"
               className="py-0.5 px-2 hover:bg-gray-800 rounded-md uppercase"
             >
