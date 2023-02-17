@@ -16,7 +16,7 @@ const Socials = () => {
           animate={{ width: onTap ? 150 : 40, height: onTap ? 40 : 40 }}
           className={`flex  items-center ${
             onTap ? "justify-between p-2" : "justify-center"
-          } outline-none ring ring-gray-800 rounded-tl rounded-bl`}
+          } outline-none ring ring-gray-800 rounded-tl rounded-bl bg-[#161B22]`}
         >
           <div
             className={`${

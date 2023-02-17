@@ -12,7 +12,7 @@ import { aboutVariants } from "../lib/motion";
 const About = () => {
   const [tabCatategory, setTabCategory] = useState("Profile");
   return (
-    <div className="w-full flex items-start  justify-center md:justify-start lg:px-24 md:px-16 py-5 space-x-5 z-20">
+    <div className="w-full flex items-start justify-center md:justify-start lg:px-24 md:px-16 py-5 space-x-5 z-20">
       <div className="w-[400px] h-[400px] px-5">
         <motion.div
           variants={aboutVariants}

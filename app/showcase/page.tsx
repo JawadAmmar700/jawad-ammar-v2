@@ -1,6 +1,6 @@
 const Showcase = () => {
   return (
-    <div className="flex flex-col items-start sm:py-10 justify-center px-12 md:justify-start md:px-12 w-full h-full">
+    <div className="flex flex-col px-12 items-start sm:py-10 justify-center md:justify-start md:px-12 w-full h-full">
       <h1 className="text-slate-400 text-xs md:text-sm  w-full sm:max-w-lg font-bold">
         For a junior full stack developer, projects are essential for learning
         and growing in the field. As a junior developer, completing projects can

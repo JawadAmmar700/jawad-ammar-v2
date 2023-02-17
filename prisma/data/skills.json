@@ -2,6 +2,7 @@
     "skills": [
         {
             "title": "Front-End",
+            "ref": "front-end",
             "skills": [
                 {
                     "name": "HTML",
@@ -39,6 +40,7 @@
         },
         {
             "title": "Back-End",
+            "ref": "back-end",
             "skills": [
                 {
                     "name": "Node.JS",
@@ -64,6 +66,7 @@
         },
         {
             "title": "Database",
+            "ref": "database",
             "skills": [
                 {
                     "name": "MySQL",
@@ -89,6 +92,7 @@
         },
         {
             "title": "Control Version",
+            "ref": "control-version",
             "skills": [
                 {
                     "name": "Git",
@@ -102,6 +106,7 @@
         },
         {
             "title": "Hosting",
+            "ref": "hosting",
             "skills": [
                 {
                     "name": "Vercel",

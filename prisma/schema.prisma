@@ -14,6 +14,7 @@ type DataSlide {
 
 type DataTechnology {
   color String
+  src   String
   name  String
 }
 
@@ -39,5 +40,6 @@ model Data {
 model Skills {
   id     String           @id @default(auto()) @map("_id") @db.ObjectId
   title  String
+  ref    String
   skills SkillsSubSkill[]
 }

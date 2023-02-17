@@ -5,7 +5,7 @@ import Skeleton from "react-loading-skeleton";
 const ProjectDetailLoading = () => {
   return (
     <div className="px-12 overflow-y-scroll w-full h-full flex flex-col space-x-4 hide-scroll-bar">
-      <div className="p-5 flex items-center space-x-2">
+      <div className="py-5 flex items-center space-x-2">
         <Skeleton height={10} width={50} />
         <Skeleton height={10} width={50} />
         <Skeleton height={10} width={50} />

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { cardVariants } from "../../../lib/motion";
+import { cardVariants } from "../lib/motion";
 import { CgWebsite } from "react-icons/cg";
 import { BackwardIcon, ForwardIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";

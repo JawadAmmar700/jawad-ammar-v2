@@ -1,8 +1,4 @@
-import { skillsQuery } from "../../lib/queries";
-
 const Skills = async () => {
-  const skills = await skillsQuery();
-
   return (
     <div className="flex flex-col items-start sm:py-10 justify-center md:justify-start md:px-12 w-full h-full">
       <h1 className="text-slate-400 text-xs md:text-sm  w-full sm:max-w-lg font-bold">

@@ -2,22 +2,23 @@
 import Link from "next/link";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
-import { ProjectDetailsTabs } from "../../../../lib/constants";
+import { ProjectDetailsTabs } from "../lib/constants";
 import { useState } from "react";
-import Carousal from "../../../../components/slider/carousal";
+import Carousal from "./slider/carousal";
 import { motion } from "framer-motion";
+import Technologies from "./technologies";
 
 type Props = {
   data: ProjectType;
 };
 
 const Content = ({
-  data: { name, description, repo, site, youtube, slide },
+  data: { name, description, repo, site, youtube, slide, technology },
 }: Props) => {
   const [activeTab, setActiveTab] = useState<string>("description");
   return (
-    <div className="">
-      <div className="p-5 flex items-center space-x-2">
+    <div>
+      <div className="py-5 px-12 flex items-center space-x-2 overflow-x-hidden">
         {ProjectDetailsTabs.map((tab) => (
           <div
             key={tab}
@@ -36,7 +37,7 @@ const Content = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="w-full md:max-w-lg"
+          className="w-full md:max-w-lg px-12"
         >
           <h2 className="text-lg font-bold">{name}</h2>
           <p className="text-xs md:text-sm mt-5">{description}</p>
@@ -72,7 +73,7 @@ const Content = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="px-2 w-full lg:max-w-2xl md:max-w-lg "
+          className="px-2 w-full lg:max-w-2xl md:max-w-lg"
         >
           {" "}
           <Carousal slides={slide} />
@@ -84,8 +85,9 @@ const Content = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
+          className="px-12"
         >
-          gg
+          <Technologies data={technology} />
         </motion.div>
       )}
     </div>

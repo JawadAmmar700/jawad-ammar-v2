@@ -13,26 +13,32 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "NextAuth",
+                    "src": "nextauth",
                     "color": "1c7b8b"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 },
                 {
                     "name": "Stripe",
+                    "src": "stripe",
                     "color": "120438"
                 }
             ],
@@ -53,10 +59,12 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "StyledComponents",
+                    "src": "styledcomponents",
                     "color": "9c093a"
                 }
             ],
@@ -77,26 +85,32 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "Recoil",
+                    "src": "recoil",
                     "color": "440d44"
                 },
                 {
                     "name": "NextAuth",
+                    "src": "nextauth",
                     "color": "1c7b8b"
                 },
                 {
                     "name": "Spotify",
+                    "src": "spotify",
                     "color": "830202"
                 },
                 {
                     "name": "HeroIcons",
+                    "src": "heroicons",
                     "color": "000000"
                 }
             ],
@@ -117,22 +131,27 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "Recoil",
+                    "src": "recoil",
                     "color": "440d44"
                 },
                 {
                     "name": "NextAuth",
+                    "src": "nextauth",
                     "color": "1c7b8b"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 }
             ],
@@ -153,22 +172,27 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "IconFinder",
+                    "src": "iconfinder",
                     "color": "fc9712"
                 },
                 {
                     "name": "Material",
+                    "src": "material",
                     "color": "dd01fa"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 }
             ],
@@ -189,38 +213,47 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "MagicLink",
+                    "src": "magiclink",
                     "color": "12fc6b"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "Material",
+                    "src": "material",
                     "color": "dd01fa"
                 },
                 {
                     "name": "Mapbox",
+                    "src": "mapbox",
                     "color": "d8d0da"
                 },
                 {
                     "name": "Prisma",
+                    "src": "prisma",
                     "color": "3B77C3"
                 },
                 {
                     "name": "Paypal",
+                    "src": "paypal",
                     "color": "4abb95"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 }
             ],
@@ -241,22 +274,27 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Nodejs",
+                    "src": "nodejs",
                     "color": "052941"
                 },
                 {
                     "name": "Google",
+                    "src": "google",
                     "color": "5b0077"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "Mongodb",
+                    "src": "mongodb",
                     "color": "208b70"
                 }
             ],
@@ -277,26 +315,32 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "NextAuth",
+                    "src": "nextauth",
                     "color": "1c7b8b"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "RichEditor",
+                    "src": "richeditor",
                     "color": "26248f"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 }
             ],
@@ -317,18 +361,22 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 }
             ],
@@ -349,14 +397,17 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Netlify",
+                    "src": "netlify",
                     "color": "963c08"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 }
             ],
@@ -377,26 +428,32 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "Google",
+                    "src": "google",
                     "color": "5b0077"
                 },
                 {
                     "name": "socketio",
+                    "src": "socketio",
                     "color": "740944"
                 },
                 {
                     "name": "peerTopeer",
+                    "src": "peertopeer",
                     "color": "dbd4df"
                 },
                 {
                     "name": "Nodejs",
+                    "src": "nodejs",
                     "color": "052941"
                 }
             ],
@@ -417,18 +474,22 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 },
                 {
                     "name": "Stripe",
+                    "src": "stripe",
                     "color": "120438"
                 }
             ],
@@ -449,14 +510,17 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Redux",
+                    "src": "redux",
                     "color": "00f735"
                 },
                 {
                     "name": "TheMealDb",
+                    "src": "themealdb",
                     "color": "867672"
                 }
             ],
@@ -477,14 +541,17 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "GoogleSearch",
+                    "src": "googlesearch",
                     "color": "04d1f5"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 }
             ],
@@ -505,14 +572,17 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 }
             ],
@@ -533,18 +603,22 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Firebase",
+                    "src": "firebase",
                     "color": "4410ff"
                 },
                 {
                     "name": "TheMoviesdb",
+                    "src": "themoviedb",
                     "color": "100024"
                 },
                 {
                     "name": "ReactContext",
+                    "src": "reactcontext",
                     "color": "351a01"
                 }
             ],
@@ -565,10 +639,12 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Opentdb",
+                    "src": "opentdb",
                     "color": "002925"
                 }
             ],
@@ -589,10 +665,12 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Corona",
+                    "src": "corona",
                     "color": "0640ac"
                 }
             ],
@@ -613,10 +691,12 @@
             "technology": [
                 {
                     "name": "ReactJs",
+                    "src": "reactjs",
                     "color": "010f36"
                 },
                 {
                     "name": "Stripe",
+                    "src": "stripe",
                     "color": "120438"
                 }
             ],
@@ -637,18 +717,22 @@
             "technology": [
                 {
                     "name": "Nodejs",
+                    "src": "nodejs",
                     "color": "052941"
                 },
                 {
                     "name": "Express",
+                    "src": "express",
                     "color": "d6cbd1"
                 },
                 {
                     "name": "Mongodb",
+                    "src": "mongodb",
                     "color": "208b70"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 }
             ],
@@ -669,18 +753,22 @@
             "technology": [
                 {
                     "name": "Nextjs",
+                    "src": "nextjs",
                     "color": "ff0000"
                 },
                 {
                     "name": "Metamask",
+                    "src": "metamask",
                     "color": "d9ff00"
                 },
                 {
                     "name": "Moralis",
+                    "src": "moralis",
                     "color": "fc12b6"
                 },
                 {
                     "name": "Tailwindcss",
+                    "src": "tailwindcss",
                     "color": "e42199"
                 }
             ],

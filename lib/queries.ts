@@ -12,8 +12,15 @@ const projectsQuery = async () => {
   return projects;
 };
 
-const skillsQuery = async () => {
-  const skills = await prisma.skills.findMany();
+const skillsQuery = async (ref: string) => {
+  const skills = await prisma.skills.findFirst({
+    where: {
+      ref: ref,
+    },
+  });
+  if (!skills) {
+    notFound();
+  }
   return skills;
 };
 

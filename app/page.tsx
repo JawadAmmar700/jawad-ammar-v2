@@ -1,4 +1,4 @@
-import About from "./about";
+import About from "../components/about";
 
 const Profile = () => {
   return <About />;

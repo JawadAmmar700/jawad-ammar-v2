@@ -1,8 +1,6 @@
-import Cards from "./cards";
-import { projectSlug } from "../../../lib/queries";
-import DataWrapper from "./data-wrapper";
+import DataWrapper from "../../../components/data-wrapper";
 import { Suspense } from "react";
-import NameLoading from "./name-loading";
+import NameLoading from "../../../components/name-loading";
 
 export const dynamic = "force-dynamic";
 

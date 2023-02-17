@@ -1,5 +1,5 @@
 import React from "react";
-import { projectSlug } from "../../../lib/queries";
+import { projectSlug } from "../lib/queries";
 import Cards from "./cards";
 
 const DataWrapper = async ({ name }: { name: string }) => {

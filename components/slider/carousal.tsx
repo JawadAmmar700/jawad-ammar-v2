@@ -17,7 +17,6 @@ const settings = {
 };
 
 export default function Carousal({ slides }: { slides: Slides }) {
-  console.log("slides, ", slides);
   return (
     <motion.div
       initial={{ opacity: 0 }}
